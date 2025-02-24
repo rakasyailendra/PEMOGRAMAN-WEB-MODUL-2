@@ -1,0 +1,28 @@
+@charset "utf-8";
+    h1 {
+        font-size: 40px; 
+        color: #000;
+    }
+
+  
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+        h1 {
+            font-size: 100px;
+            color: #ff7eb6;
+        }
+
+        body {
+            background-color: #e81717;
+        }
+    }
+
+    @media screen and (min-width: 100px) and (max-width: 601px) {
+        h1 {
+            font-size: 100px;
+            color: #ff7eb6;
+        }
+
+        body {
+            background-color: #7b7b7b;
+        }
+    }
